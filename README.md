@@ -54,4 +54,4 @@ CLI tool uses a number of open source projects to work properly:
 
 
 ### ISC License (ISC)
-Copyright (c) 2020, Pavel.V
+Copyright (c) 2020, Pavel V.
