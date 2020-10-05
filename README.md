@@ -31,7 +31,7 @@ npm install
 ### Usage example:
 
 ```
-node index -a encode -s 7 -i input.txt -o output.txt
+node index -a encode -s 7 -i ./files/input.txt -o ./files/output.txt
 ```
 ```
 node index --action encode --shift 5 --input "./files/input.txt" --output "./files/output.txt"
