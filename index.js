@@ -9,11 +9,10 @@ checkArguments(argv)
 
 const action = argv.a || argv.action;
 const shift = argv.s || argv.shift;
-
 const input = argv.i || argv.input;
-if (input) checkInputFile(input)
-
 const output = argv.o || argv.output;
+
+if (input) checkInputFile(input)
 if (output) checkOutputFile(output)
 
 const cipher = new Cipher(action, shift)
@@ -32,6 +31,3 @@ stream.pipeline(
         }
     }
 )
-
-
-// node index.js --action encode -s 12 -i ./files/input.txt -o ./files/output.txt
