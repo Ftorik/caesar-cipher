@@ -24,6 +24,7 @@ CLI tool requires [Node.js](https://nodejs.org/) v12+
 Install the dependencies.
 
 ```
+cd caesar-cipher-cli
 npm install
 ```
   
